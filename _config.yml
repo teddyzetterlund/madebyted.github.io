@@ -1,0 +1,9 @@
+name: Made Byted
+markdown: redcarpet
+permalink: blog/:title
+highlighter: pygments
+description: "Hi, I'm Teddy Zetterlund. This is Made Byted. I'm a full-stack developer but specialize on the content, style and behavior of web applications."
+url: "http://madebyted.com"
+exclude: ['vendor']
+gems:
+  - jekyll-sitemap

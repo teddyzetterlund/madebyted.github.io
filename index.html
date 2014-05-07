@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<h1>Hi, I'm <a href="https://twitter.com/teddyzetterlund">Teddy Zetterlund</a>. <span class="company-intro">This is <strong>Made Byted</strong>.</span></h1>
+
+<p>I'm a full-stack developer but specialize on the <em>content, style and behavior</em> of web applications. I live in Stockholm, Sweden.</p>
+
+<p class="callout">Get in touch with me at <a href="mailto:teddy@madebyted.com">teddy@madebyted.com</a>.</p>
+
+<h2>I write essays occasionally</h2>
+
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>I also recommend books</h2>
+
+<ul class="list-with-meta">
+  <li>
+    <a href="http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555">Thinking, Fast and Slow</a>
+    <span class="meta">by Daniel Kahneman</span>
+  </li>
+  <li>
+    <a href="http://zenhabits.net/lg/">The One Skill: How Mastering the Art of Letting Go Will Change Your Life</a>
+    <span class="meta">by Leo Babauta</span>
+  </li>
+  <li>
+    <a href="http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805">Drive: The Surprising Truth About What Motivates Us</a>
+    <span class="meta">by Daniel Pink</span>
+  </li>
+</ul>
+
+<h2>I'm elsewhere as well</h2>
+
+<p>
+  Look for me on
+  <a href="https://twitter.com/teddyzetterlund">Twitter</a>,
+  <a href="https://github.com/teddyzetterlund">GitHub</a> and
+  <a href="https://dribbble.com/teddyzetterlund">Dribbble</a>.
+</p>
