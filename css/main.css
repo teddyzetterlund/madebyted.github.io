@@ -9,6 +9,10 @@ body {
   width: 21.875rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 strong {
   font-weight: 500;
 }
@@ -129,6 +133,12 @@ a:hover {
     font-weight: 500;
     margin: 0 -1.5rem 1.5rem -1rem;;
     padding: .5rem 1rem;
+  }
+
+  img {
+    margin-left: -5rem;
+    margin-right: -5rem;
+    max-width: calc(100% + 10rem);
   }
 
   pre {
