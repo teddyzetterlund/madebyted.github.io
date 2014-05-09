@@ -82,6 +82,10 @@ a:hover {
   padding: 1rem;
 }
 
+.post-content {
+  margin-bottom: 2rem;
+}
+
 .meta {
   color: #999;
   display: block;
