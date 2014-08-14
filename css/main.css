@@ -6,7 +6,7 @@ body {
   font: 1em/1.5 "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   margin: 1.5rem auto;
   max-width: 90%;
-  width: 21.875rem;
+  width: 30rem;
 }
 
 img {
@@ -46,6 +46,12 @@ blockquote {
   font-style: italic;
   margin-left: -1.25rem;
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 30rem) {
+  blockquote {
+    margin-left: 0;
+  }
 }
 
 pre {
